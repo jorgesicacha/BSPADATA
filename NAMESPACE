@@ -1,0 +1,12 @@
+exportPattern("^[[:alpha:]]+")
+
+import(mvtnorm)
+import(spdep)
+import(pscl)
+import(coda)
+importFrom(pbapply,"pblapply")
+importFrom("stats", "quantile")
+importFrom("grDevices", "dev.new")
+importFrom("stats", "dnorm", "rnorm", "runif", "sd", "ts.plot")
+importFrom("utils", "setTxtProgressBar", "txtProgressBar")
+
